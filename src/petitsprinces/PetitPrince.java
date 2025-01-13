@@ -4,15 +4,15 @@ import asteroide.Sujet;
 import asteroide.console.ConsoleJavaBoy;
 import java.util.Random;
 
-public class PetitPrince0 implements Sujet{
+public class PetitPrince implements Sujet{
 	
 	private String nom;
 	private int argent;
 	private ConsoleJavaBoy console;
 	private int cpt;
 	
-	public PetitPrince0 () {
-		nom = "Robert";
+	public PetitPrince () {
+		nom = "Dario";
 		console = new ConsoleJavaBoy(this);
 		this.cpt = 0;
 		this.argent = 0;
